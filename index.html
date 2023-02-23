@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en, bangla">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="img/slide/logo/favicon.png"
+      type="image/x-icon"
+    />
+    <title>Blood Management HUB</title>
+    <!-- link cdn tailwind css  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- link tw-element  -->
+    <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/2466c77d9a.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- custom css  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="h-11 bg-red-600 flex justify-around items-center z-50">
+      <div class="text-white">
+        <i class="fa-solid fa-phone"></i>
+        <span class="px-1">01949201049</span>
+        <i class="fa-regular fa-envelope"></i>
+        <span class="px-1">samaulrajshovon@gmail.com</span>
+      </div>
+      <div class="text-gray-200">
+        <a href="#"
+          ><i class="fa-solid fa-arrow-right-to-bracket"></i>
+          <span>Login</span></a
+        >
+      </div>
+    </div>
+    <header>
+      <div>
+        <div></div>
+        <div></div>
+      </div>
+      <nav>
+        <div class="nav z-10 static top-0">
+          <input type="checkbox" id="nav-check" />
+          <div class="nav-header">
+            <div class="nav-title">
+              <div>
+                <img src="img/slide/logo/bmh.png" class="w-2/3" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="nav-btn">
+            <label for="nav-check">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+          </div>
+
+          <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Bloods</a>
+            <a href="#">Agents</a>
+            <a href="#">Pricing</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+      </nav>
+      <!-- search section  -->
+      <div class="absolute text-center z-40 w-full h-full mt-40">
+        <div class="flex-col">
+          <h1 class="text-white text-5xl py-5 my-5 font-bold">
+            SEARCH A DONOR IN YOUR AREA
+          </h1>
+        </div>
+        <div class="flex justify-center items-center">
+          <div class="flex justify-center">
+            <div class="rounded-md bg-white xl:w-11/12">
+              <select data-te-select-init data-te-select-filter="true">
+                <option value="0">District</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="5">Five</option>
+                <option value="6">Six</option>
+                <option value="7">Seven</option>
+                <option value="8">Eight</option>
+                <option value="9">Nine</option>
+                <option value="10">Ten</option>
+              </select>
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <div class="xl:w-11/12 rounded-md bg-white">
+              <select data-te-select-init data-te-select-filter="true">
+                <option value="0">City</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="5">Five</option>
+                <option value="6">Six</option>
+                <option value="7">Seven</option>
+                <option value="8">Eight</option>
+                <option value="9">Nine</option>
+                <option value="10">Ten</option>
+              </select>
+            </div>
+          </div>
+          <div class="flex justify-center items-center">
+            <div class="xl:w-11/12 rounded-md bg-white">
+              <select data-te-select-init data-te-select-filter="true">
+                <option value="Choose Blood Group">Choose Blood Group</option>
+                <option value="1">A+</option>
+                <option value="2">A-</option>
+                <option value="3">B+</option>
+                <option value="4">B-</option>
+                <option value="5">O+</option>
+                <option value="6">O-</option>
+                <option value="7">AB+</option>
+                <option value="8">AB-</option>
+              </select>
+            </div>
+          </div>
+          <div flex justify-center items-center>
+            <button
+              class="bg-lime-500 hover:bg-lime-600 active:bg-lime-700 focus:outline-none focus:ring focus:ring-lime-300 rounded-full py-2 px-10 text-white font-bold"
+            >
+              Save changes
+            </button>
+          </div>
+        </div>
+        <!-- search section  -->
+      </div>
+      <section class="relative">
+        <div
+          id="carouselDarkVariant"
+          class="relative"
+          data-te-carousel-init
+          data-te-carousel-slide
+        >
+          <!-- Indicators -->
+          <div
+            class="absolute inset-x-0 bottom-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"
+            data-te-carousel-indicators
+          >
+            <button
+              data-te-target="#carouselDarkVariant"
+              data-te-slide-to="0"
+              data-te-carousel-active
+              class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-black bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              data-te-target="#carouselDarkVariant"
+              class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-black bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+              data-te-slide-to="1"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              data-te-target="#carouselDarkVariant"
+              class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-black bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+              data-te-slide-to="2"
+              aria-label="Slide 1"
+            ></button>
+          </div>
+          <!-- Inner -->
+          <div
+            class="relative w-full overflow-hidden after:clear-both after:block after:content-['']"
+          >
+            <!-- Single item -->
+            <div
+              class="relative background-slider-color-1 float-left -mr-[100%] w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
+              data-te-carousel-fade
+              data-te-carousel-item
+              data-te-carousel-active
+            >
+              <!-- <img class="block w-full" alt="Motorbike Smoke" /> -->
+              <div
+                class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-black md:block"
+              ></div>
+            </div>
+            <!-- Single item -->
+            <div
+              class="relative background-slider-color-2 float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
+              data-te-carousel-fade
+              data-te-carousel-item
+            >
+              <!-- <img
+                src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(35).webp"
+                class="block w-full"
+                alt="Mountaintop"
+              /> -->
+              <div
+                class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-black md:block"
+              ></div>
+            </div>
+            <!-- Single item -->
+            <div
+              class="relative background-slider-color-3 float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
+              data-te-carousel-fade
+              data-te-carousel-item
+            >
+              <!-- <img
+                src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(40).webp"
+                class="block w-full"
+                alt="Woman Reading a Book"
+              /> -->
+              <div
+                class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-black md:block"
+              ></div>
+            </div>
+          </div>
+          <!-- Inner -->
+          <!-- Controls -->
+          <button
+            class="absolute top-0 bottom-0 left-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-black opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-black hover:no-underline hover:opacity-90 hover:outline-none focus:text-black focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+            type="button"
+            data-te-target="#carouselDarkVariant"
+            data-te-slide="prev"
+          >
+            <span class="inline-block h-8 w-8 dark:grayscale dark:invert">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="h-6 w-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 19.5L8.25 12l7.5-7.5"
+                />
+              </svg>
+            </span>
+            <span
+              class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+              >Previous</span
+            >
+          </button>
+          <button
+            class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-black opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-black hover:no-underline hover:opacity-90 hover:outline-none focus:text-black focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+            type="button"
+            data-te-target="#carouselDarkVariant"
+            data-te-slide="next"
+          >
+            <span class="inline-block h-8 w-8 dark:grayscale dark:invert">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="h-6 w-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </span>
+            <span
+              class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+              >Next</span
+            >
+          </button>
+        </div>
+      </section>
+    </header>
+    <main>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero cumque
+      quaerat eaque illum ab modi ullam ut quia, sequi soluta doloribus beatae
+      libero dignissimos, alias possimus ea quasi aliquam excepturi cum tenetur
+      laboriosam. Repudiandae quas explicabo, amet illum possimus nobis saepe ab
+      ipsa similique soluta enim cum sapiente, iure sequi iste incidunt nam
+      autem voluptatum perspiciatis ducimus illo earum ad mollitia? Doloremque
+      eligendi ut in rerum dolorum aspernatur necessitatibus nemo quae est
+      cupiditate voluptatibus quis officiis, ea perspiciatis ratione explicabo?
+      Maiores autem repellendus fugiat. Aperiam repellat nostrum est eum libero
+      harum non odit, dolore sint amet laborum! Perspiciatis pariatur quas culpa
+      excepturi, optio nam sed ab minima rem recusandae voluptatum autem.
+      Inventore corporis laborum ullam distinctio ea, molestias sit nobis, harum
+      aspernatur aliquid ratione sapiente est quos. Soluta iusto excepturi sed
+      commodi quo iure ut. Ratione ex eos neque atque, sapiente labore facere
+      nemo aliquid rerum eum cum, doloremque optio? Quis, sed. Aut
+      necessitatibus corrupti veniam earum animi at adipisci, cum similique
+      possimus? Numquam rem ab commodi qui. A laborum earum quo deserunt dolores
+      nesciunt, tenetur, ut eaque assumenda quos commodi laboriosam velit minima
+      quam laudantium atque eius culpa enim soluta, quod aliquam distinctio
+      voluptatibus maiores? Beatae commodi neque eos ipsum a? Doloremque
+      doloribus quod, quia esse est optio nihil quisquam unde inventore fugit
+      cumque ipsam nobis omnis sint dolore officiis corporis, nisi aspernatur
+      odit quo ullam! Neque quo, ut, obcaecati sunt pariatur fugit tempore quas
+      mollitia, consectetur repudiandae soluta voluptas dolorum nesciunt quae
+      nihil repellat necessitatibus error? Optio numquam, sint quod tempora
+      dignissimos a quam iusto hic minus. Cum explicabo dolorem quod voluptatum.
+      Iure quia ex voluptatum blanditiis hic obcaecati natus, ducimus eligendi
+      laboriosam repellat repellendus, id ratione beatae ea maiores. Veniam quo
+      suscipit quisquam aspernatur illo incidunt facilis ab fugit asperiores
+      velit sed id dolores fugiat totam doloribus voluptates, sapiente ullam,
+      aliquid labore molestiae tempora consequuntur distinctio? Porro,
+      voluptates inventore. Sit commodi natus magnam, corrupti incidunt amet
+      voluptatibus omnis autem aperiam earum reprehenderit deleniti nesciunt a
+      quod modi rerum repellat odio repudiandae quae est nihil ut voluptatum aut
+      corporis. Illo, sint? Assumenda sequi dolores, fugit necessitatibus
+      deserunt, amet eos repellendus veritatis porro nostrum ullam laborum ipsa
+      quae accusantium autem ea consequatur sed doloremque, provident saepe quos
+      repellat libero! Quae numquam accusantium error praesentium perferendis
+      doloribus pariatur? Alias voluptatum nam facilis ullam exercitationem
+      delectus fuga beatae quasi assumenda accusamus! Amet, expedita! Quasi nemo
+      porro, corporis, obcaecati eius fugiat minus delectus debitis possimus
+      mollitia, harum corrupti reprehenderit excepturi ut provident. Corporis
+      aliquam provident necessitatibus molestias aspernatur, culpa ipsum iusto
+      eligendi sed et fugiat pariatur nam dolorum! Dolor aliquid unde
+      dignissimos asperiores, nesciunt quisquam earum repellendus vero, ducimus
+      voluptatem iure commodi culpa accusantium officiis, minima facere impedit
+      nemo enim temporibus optio! Rerum dolor eveniet delectus vitae iure odio
+      vero quisquam, labore, non corporis tenetur consequatur sed eius?
+      Exercitationem mollitia quibusdam aut fugit provident, iusto harum
+      repellendus, ullam facilis asperiores magni consequuntur eveniet
+      distinctio voluptates? Cum nemo minus rerum, laudantium sunt quaerat
+      voluptatem provident aut commodi? Accusantium est maiores corporis
+      voluptate velit, ex quae aliquid laborum illum officia minus error
+      asperiores optio! Beatae aut ea quod illo aperiam, quis explicabo, non ab
+      cum fuga inventore, omnis temporibus! Dignissimos, maxime laboriosam
+      delectus veniam incidunt error perferendis reprehenderit eligendi magni
+      nam quia necessitatibus vitae eaque illo aliquid, molestias iste illum
+      aspernatur doloribus ipsam rerum distinctio minus. Quidem, commodi!
+      Nostrum cum suscipit iusto maiores eum ducimus laboriosam fuga illum
+      assumenda impedit laborum, deserunt dicta rerum quibusdam dolores. Nobis
+      necessitatibus optio dolor obcaecati, voluptatibus adipisci blanditiis ab
+      illum repudiandae voluptates est, commodi quos, aliquid consequatur ipsa?
+      Error veritatis a, voluptatem consequatur soluta quisquam minima facilis
+      doloribus molestias nam blanditiis ab omnis voluptates quaerat pariatur?
+      Labore officiis aperiam non ipsam et cum recusandae a consequatur
+      necessitatibus, enim debitis quod ratione dolor reiciendis. Aut eos fugiat
+      omnis numquam, optio laborum soluta ad dignissimos quisquam repellat
+      cupiditate! At ipsum nam illum a recusandae accusantium odit culpa ratione
+      qui repudiandae consequatur, iste veritatis fugiat possimus voluptatem
+      earum quo eaque, minima deleniti vero assumenda. Facilis voluptatibus vel,
+      ipsum ducimus dignissimos asperiores nisi sunt commodi tempora consequatur
+      cupiditate dicta debitis quis ab minima ipsam molestias perferendis, eum
+      totam ea laborum! Nobis facere, fugiat hic vitae fugit neque accusamus
+      quidem. Quis nobis maxime tenetur earum animi dolore deserunt accusantium
+      illum. Corporis unde et consequatur iste culpa libero nesciunt eum enim
+      sed dolorum consectetur vero, totam nulla magnam alias facilis aperiam
+      rerum laboriosam id quia inventore sequi veritatis? Fuga ducimus
+      voluptatum nisi amet beatae optio fugiat pariatur cum! Placeat odit modi
+      nesciunt deserunt repudiandae obcaecati, cum veritatis tempore sunt quia,
+      nostrum explicabo assumenda ex totam adipisci illo ea optio aliquid nemo
+      ut saepe, consequatur quasi! Distinctio iure dignissimos, et voluptas quos
+      eos delectus ab expedita libero cum, debitis ullam, impedit placeat
+      repellendus corrupti ea maxime! Autem ab distinctio aperiam. Magnam
+      dignissimos explicabo, corporis non ipsam, sed earum animi voluptatem
+      ullam optio rem veniam excepturi corrupti hic nam assumenda! Repudiandae
+      animi ut perspiciatis cum facere tempora blanditiis dicta, aperiam at
+      dignissimos provident ratione fuga repellendus voluptate optio asperiores
+      accusamus placeat dolorem consequuntur, enim eveniet ducimus dolor. Enim,
+      nobis soluta? Repudiandae ut veniam atque corrupti illum fugit officiis,
+      qui, facilis minima autem nulla dicta explicabo dolores quidem nam. At
+      sunt velit quam soluta! Impedit ipsam facilis reiciendis ratione earum. Ea
+      corporis, fugit ipsum beatae incidunt numquam atque minima molestias, eos
+      reprehenderit earum quo! Temporibus porro ipsum ipsa non nemo voluptatem
+      at autem quibusdam corrupti illo vitae quam magnam, voluptatum dignissimos
+      possimus delectus quaerat doloribus officiis optio. Nostrum nemo
+      architecto sit eius, in quo praesentium quidem? Iste magni delectus est.
+      Dolor vero, quam, itaque nulla suscipit impedit amet aperiam reprehenderit
+      officia animi tempora ratione. Quae aut minima maxime harum quidem,
+      recusandae quibusdam similique, nesciunt perferendis ducimus labore quo
+      laborum error accusamus libero non eos doloremque molestiae! Quas eveniet
+      veniam quisquam dolor consectetur quae voluptatem dolores molestiae
+      laborum! Pariatur perspiciatis libero eos quos ipsa atque minima harum in
+      ea quasi rem adipisci facilis reiciendis, explicabo alias at? Est
+      laudantium dignissimos qui blanditiis et natus beatae, a voluptatem
+      impedit!
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+  </body>
+</html>
